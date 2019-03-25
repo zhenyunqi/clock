@@ -1,0 +1,32 @@
+<!--pages/wxml/index.wxml
+<text>当前时间：{{time}}</text>-->
+
+<!-- array是一个数组 
+<view wx:for="{{array}}">
+  {{index}} : {{item.message}}
+</view>-->
+
+<!-- wx:key 
+<switch wx:for="{{objectArray}}" wx:key="unquie">{{item.id}}</switch>
+<button bindtap='switch'> Switch </button>
+<button bindtap='addToFront'>Add to the front</button>
+
+<switch wx:for="{{numberArray}}" wx:key="*this">{{item}}</switch>
+<button bindtap="addNumberToFront">Add to the front</button>-->
+
+<!-- import 
+<import src="template.wxml"/>
+<template is="msgItem" data="{{...item}}"/>-->
+
+<!-- include 
+<include src="header.wxml"/>-->
+
+<!-- 内联样式 
+<view style='color: red; font-size: 48rpx'>aaaa</view>-->
+
+<!-- class 
+<view class='ele'>aaa</view> -->
+
+<!--gray-->
+<view hover-class='hover'>click me</view>
+<button hover-class='hover'>click me</button>

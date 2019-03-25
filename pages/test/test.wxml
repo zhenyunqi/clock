@@ -1,0 +1,14 @@
+<view class='layout_horizontal'>
+  <button class='btn1' open-type='contact'>
+    <image class='btnImg' src='/images/clock/bottle.png'></image>
+    <view>瓶喂</view>
+  </button>
+  <button class='btn1' open-type='contact'>
+    <image class='btnImg' src='/images/clock/breastPump.png'></image>
+    <view>吸奶</view>
+  </button>
+  <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='/images/clock/nurse.png'></image>
+    <view>亲喂</view>
+  </button>
+</view>

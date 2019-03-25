@@ -1,0 +1,15 @@
+<!-- /pages/index/index.wxml -->
+<view class='layout_horizontal'>
+  <button class='btn' bindtap='toBottle'>
+    <image class='btnImg' src='/images/clock/bottle.png'></image>
+    <view>瓶喂</view>
+  </button>
+  <button class='btn' bindtap='toBreastPump'>
+    <image class='btnImg' src='/images/clock/breastPump.png'></image>
+    <view>吸奶</view>
+  </button>
+  <button class='btn' bindtap='toNurse'>
+    <image class='btnImg' src='/images/clock/nurse.png'></image>
+    <view>亲喂</view>
+  </button>
+</view>

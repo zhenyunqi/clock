@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/bottle/bottle",
+    "pages/index/index",
+    "pages/nurse/nurse",
+    
+    "pages/breastPump/breastPump",
+    "pages/test/test",
+    "pages/wxml/index"
+    ],
+    "tabBar": {
+      "color": "#a9b7b7",
+      "selectedColor": "#11cd6e",
+      "borderStyle": "black",
+      "list": [
+        {
+          "selectedIconPath": "images/tabBar/chip.png",
+          "iconPath": "images/tabBar/chip.png",
+          "pagePath": "pages/index/index",
+          "text": "今日"
+        },
+        {
+          "selectedIconPath": "images/tabBar/cookie.png",
+          "iconPath": "images/tabBar/cookie.png",
+          "pagePath": "pages/wxml/index",
+          "text": "历史"
+        }
+      ]
+    }
+}

@@ -1,0 +1,33 @@
+/* pages/index/index.wxss */
+/* button样式 */
+.btn{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+/* 图片大小 */
+.btnImg {
+  width: 125rpx;
+  height: 125rpx;
+}
+/* 消除button边框 */
+.btn::after {
+  border: 0; 
+}
+/* button水平布局 */
+.layout_horizontal{
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+}

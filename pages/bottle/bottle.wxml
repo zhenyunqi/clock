@@ -1,0 +1,12 @@
+
+<view class='bg-view'>
+  <image class='bg-image' src='/images/backgroundImg/sky.png'></image>
+  <view class='child'>
+    
+  </view>
+</view>
+
+  
+
+
+

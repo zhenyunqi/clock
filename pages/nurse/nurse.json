@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#7885e8",
+  "navigationBarTitleText": "亲喂",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#7885e8",
+  "disableScroll": false
+}

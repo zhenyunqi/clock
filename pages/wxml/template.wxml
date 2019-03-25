@@ -1,0 +1,7 @@
+<!-- template.wxml-->
+<template name="msgItem">
+  <view>
+    <text>{{index}} : {{msg}}</text>
+    <text>time: {{time}}</text>
+  </view>
+</template>

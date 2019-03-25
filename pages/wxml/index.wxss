@@ -1,0 +1,25 @@
+/* pages/wxml/index.wxss */
+/*权重为1*/
+view{ 
+  color: blue
+}
+/*权重为10*/
+.ele{
+  color: red
+}
+/*权重为100*/
+#ele{
+  color: pink
+}
+/*权重为1+10=11*/
+view.ele{
+  color: green
+}
+/*权重为1+100=101*/
+view#ele{
+  color: orange
+}
+
+.hover{
+  background-color: gray
+}
